@@ -6,10 +6,10 @@ import Button from './Button'
 const ButtonList = () => {
   return (
     
-    <div className='flex flex-wrap scroll-ml-6 snap-start'>
+    <div className='flex max-w-screen-xl overflow-auto text-center whitespace-no-wrap'>
     
     
-      <Button class="scroll" name={"All"}></Button>
+      <Button name={"All"}></Button>
       <Button name={"Gaming"}></Button>
       <Button name={"Songs"}></Button>
       <Button name={"Live"}></Button>
